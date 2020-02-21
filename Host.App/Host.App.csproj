@@ -34,11 +34,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Calc">
-      <HintPath>..\..\Internal.Libs\Full\Calc.dll</HintPath>
+      <HintPath>..\..\..\Internal.Libs\Full\Calc.dll</HintPath>
     </Reference>
     <Reference Include="Logger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\External.Libs\Full\Logger.dll</HintPath>
+      <HintPath>..\..\..\External.Libs\Full\Logger.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
