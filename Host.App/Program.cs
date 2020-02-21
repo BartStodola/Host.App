@@ -13,7 +13,7 @@ namespace Host.App
             log.Info("hello world.");
 
             ICalc calc = new Calc.Calc();
-            var r = calc.Sub(1, -2);
+            var r = calc.Sub(1, 2);
             log.Warn($"result less than zero: {r}");
 
             Console.WriteLine("press any key!");
